@@ -5,7 +5,6 @@ import random
 class GuessNumberGame:
     def __init__(self, master):
         self.master = master
-        #programm name
         self.master.title("GuessMe")
         self.master.geometry("300x250")
 
